@@ -1,0 +1,92 @@
+body {
+  background-size: cover;
+  margin: 0;
+  background-image: url("https://i.pinimg.com/originals/c5/9a/d2/c59ad2bd4ad2fbacd04017debc679ddb.gif");
+  background-repeat: repeat-y;
+}
+
+.box {
+  background-color: black;
+  border-radius: 20px;
+  padding: 10px;
+  border: 2px groove darkgreen;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10vh;
+}
+
+.page-title {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5vh;
+  color: white;
+  font-family: "Smooch Sans", sans-serif;
+  font-weight: normal;
+  font-size: 8vh;
+}
+
+.page-subtitle {
+  color: green;
+  margin-top: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.logo {
+  position: absolute;
+  bottom: 0%;
+  float: right;
+}
+
+.page-logo {
+  width: 25vh;
+}
+
+input {
+  margin: 4px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+.valor {
+  background-color: darkgreen;
+  border-color: white;
+  color: white;
+  justify-text: center;
+}
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: black;
+  font-family: "Montserrat", sans-serif;
+  border-color: white;
+  color: white;
+}
+
+.resultadoDiv {
+  display: flex;
+  justify-content: space-between;
+}
+h2 {
+  color: white;
+  font-family: "Smooch Sans", sans-serif;
+  font-weight: normal;
+  font-size: 40px;
+}
+
+h1 {
+  margin: 0;
+}
+
+h2 {
+  margin: 5vh;
+}
